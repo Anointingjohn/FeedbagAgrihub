@@ -1,7 +1,8 @@
 "use client";
-import Aggregator from "@/components/SIgnupPage/Aggregator";
-import Consumer from "@/components/SIgnupPage/Consumer";
-import Farmer from "@/components/SIgnupPage/Farmer";
+
+import Aggregator from "@/components/SignupPage/Aggregator";
+import Consumer from "@/components/SignupPage/Consumer";
+import Farmer from "@/components/SignupPage/Farmer";
 import React, { useEffect, useState } from "react";
 
 export default function Signup() {

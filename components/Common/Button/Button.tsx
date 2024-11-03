@@ -23,7 +23,8 @@ const Button: React.FC<ButtonProps> = ({
     secondary:
       "md:w-[450px] md:h-[59px] w-full text-[12px] md:text-[18px] h-[50px] rounded-[16px] border-[#49C01F] primary-text background-transparent border-[1.5px]",
 
-    tertiary: "",
+    tertiary:
+      "w-[108px] h-[47px] flex flex-row gap-2 justify-center items-center text-[12px] md:text-[18px] rounded-[16px] border-[#49C01F] primary-text background-transparent border-[1px]",
   };
 
   const buttonClass = `${baseStyle} ${
